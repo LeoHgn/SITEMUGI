@@ -175,3 +175,32 @@ section ul li{
     text-align: center;
     margin-top: 20px;
 }
+
+/* Conteneur des réseaux sociaux */
+
+.conteneurRS{
+    margin-top: 10px;
+    background-color: black;
+}
+
+.conteneurRS h1{
+    color: white;
+    font-size: 50px;
+}
+
+.conteneurRS div {
+    text-align: center;
+}
+
+i{
+    color: white;
+    padding: 0 20px 0 20px;
+    font-size: 30px;
+}
+
+i:hover{
+    border: solid 2px white;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
