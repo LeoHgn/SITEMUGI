@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+.my-carousel{
+    position: absolute;
+    top: 0;
+}
+
+.my-nav{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    z-index: 999;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+
+  a:hover{
+      color: grey;
+  }
+   
+  a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 500ms ease;
+  }
+   
+  a:hover:after {
+    width: 100%;
+  }
