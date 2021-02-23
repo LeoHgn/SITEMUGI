@@ -1,4 +1,5 @@
 /* Changements de base pour la page */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -28,6 +29,7 @@ a {
     color: white;
     padding: 10px 0;
     font-size: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .my-nav a:hover{
@@ -89,14 +91,65 @@ a {
 .carousel-content>a:hover{
     color: white;
     opacity: 0.5;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
 }
 
 /* Conteneur du texte sous le slider */
+.conteneur{
+    background-color: white;
+}
+
 .container{
     position: relative;
     z-index: 1;
     color: black;
     margin-top: 1200px;
     background-color: white;
+}
+
+section{
+    border-bottom: black 2px solid;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: grey;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* Propriétés d'habillage du texte */
+.citation{
+    text-align: center;
+    width: 100%;
+    color: grey;
+    font-style: italic;
+    justify-content: center;
+}
+
+section ul li{
+    font-size: 20px;
+    color: grey;
+    list-style-type: square;
 }
