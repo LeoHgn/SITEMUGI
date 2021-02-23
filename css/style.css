@@ -1,3 +1,5 @@
+/* Changements de base pour la page */
+
 html{
     scroll-behavior: smooth;
 }
@@ -5,6 +7,8 @@ html{
 body{
     background-color: black;
 }
+
+/* Mise en page du menu */
 
 .my-carousel{
     position: absolute;
@@ -24,13 +28,13 @@ a {
     color: white;
     padding: 10px 0;
     font-size: 20px;
-  }
+}
 
-  a:hover{
+.my-nav a:hover{
       color: grey;
-  }
+}
    
-  a:after {
+.my-nav a:after {
     content: '';
     position: absolute;
     left: 0;
@@ -39,16 +43,60 @@ a {
     height: 2px;
     background: white;
     transition: width 500ms ease;
-  }
+}
    
   a:hover:after {
     width: 100%;
-  }
+}
 
   .logo{
-      color: yellow;
-  }
-
-  .logo:hover{
     color: yellow;
-  }
+}
+
+.logo:hover{
+  color: yellow;
+}
+
+/* Mise en page du carousel et des écrits à l'intérieur */
+
+.carousel-content:first-of-type{
+    position: absolute;
+    bottom: 46%;
+    left: 35%;
+    z-index: 20;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.carousel-item:nth-of-type(2) > .carousel-content{
+    left: 38%;
+}
+
+.carousel-item:nth-of-type(3) > .carousel-content{
+    left: 41%;
+}
+
+.carousel-item:nth-of-type(4) > .carousel-content{
+    left: 42%;
+}
+
+.carousel-content>a{
+    font-size: 70px;
+}
+
+.carousel-content>a:hover{
+    color: white;
+    opacity: 0.5;
+    transition-duration: 0.2s;
+}
+
+/* Conteneur du texte sous le slider */
+.container{
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-top: 1200px;
+    background-color: white;
+}
