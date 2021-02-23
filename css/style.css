@@ -52,14 +52,6 @@ a {
     width: 100%;
 }
 
-  .logo{
-    color: yellow;
-}
-
-.logo:hover{
-  color: yellow;
-}
-
 /* Mise en page du carousel et des écrits à l'intérieur */
 
 .carousel-content:first-of-type{
@@ -104,12 +96,16 @@ a {
     position: relative;
     z-index: 1;
     color: black;
-    margin-top: 1200px;
+    margin-top: 1100px;
     background-color: white;
 }
 
 section{
     border-bottom: black 2px solid;
+}
+
+section:last-of-type{
+    border: none;
 }
 
 h1{
@@ -172,4 +168,10 @@ section ul li{
 
 #equipe p{
     text-align: center;
+}
+
+#medias div{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
