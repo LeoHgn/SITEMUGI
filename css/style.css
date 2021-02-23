@@ -1,5 +1,6 @@
 /* Changements de base pour la page */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -152,4 +153,23 @@ section ul li{
     font-size: 20px;
     color: grey;
     list-style-type: square;
+}
+
+#equipe a {
+    font-size: 60px;
+    color: grey;
+    padding: 10px;
+    opacity: 0.5;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+#equipe a:hover {
+    border: solid 2px grey;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+#equipe p{
+    text-align: center;
 }
